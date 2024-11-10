@@ -11,5 +11,5 @@ def drinks(request, drink_name):
         'tea' : 'type of beverage',
         'lemonade' : 'type of refreshment',
     }
-    choice_of_drink = drink.get(drink_name)
+    choice_of_drink = drink.get(drink_name, 'No disponible')
     return HttpResponse(f"<h2> {drink_name} </h2>" + choice_of_drink)
