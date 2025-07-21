@@ -1,4 +1,4 @@
-import heroes, {owners} from "../data/heroes.js";
+import heroes, {owners} from "../data/heroes.js"; // Importa el array de héroes y los dueños
 
 // console.log(owners);
 

@@ -2,7 +2,6 @@ const persona = {
     nombre: "David",
     apellido: "Casallas",
     edad: 21,
-
 }
 
 // console.table(persona);

@@ -9,6 +9,6 @@ console.log(nombre, apellido, valorDado);
 if (true) {
     let valorDado = 3; // Variable local de bloque
     const apellido = 'Parker'; // Variable local de bloque
-    console.log(apellido, valorDado);
+    console.log(apellido, valorDado); // 'Parker' '3'
 }
-console.log(valorDado); 
+console.log(valorDado); // 2

@@ -1,6 +1,5 @@
 const nombre = 'Juan';
 const apellido = 'Casallas';
-
 const nombreCompleto=`${nombre} ${apellido}`
 
 console.log(nombreCompleto);

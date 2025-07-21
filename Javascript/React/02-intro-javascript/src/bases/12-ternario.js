@@ -1,4 +1,4 @@
-const activo = true;
+const activo = true; // Variable de estado
 
 // FORMA TRADICIONAL: Usando if-else
 // let mensaje = '';
@@ -10,9 +10,11 @@ const activo = true;
 
 // OPERADOR TERNARIO: Forma abreviada de if-else
 // Sintaxis: condición ? valor_si_true : valor_si_false
-// const mensaje = (activo) ? 'activo' : 'inactivo'; // 'activo'
-const mensaje = (!activo) ? 'activo' : 'inactivo'; // 'inactivo'
+const mensaje2 = (activo) ? 'activo' : 'inactivo'; // 'activo'
+const mensaje = (!activo) ? 'activo' : 'inactivo'; // 'inactivo' (negación)
 
+// Operador AND lógico como alternativa
 // const mensaje = activo && 'activo';
 
-console.log(mensaje);
+console.log(mensaje); // 'inactivo'
+console.log(mensaje2); // 'activo'

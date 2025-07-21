@@ -1,4 +1,4 @@
-const marcas = ["Suzuki", "Yamaha", "Pulsar"];
+const marcas = ["Suzuki", "Yamaha", "Pulsar"];// Arreglo de marcas
 
 // Desestructuración de arreglos
 const [,,m3] = marcas; //Con "," se omiten elementos
